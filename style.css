@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+
+.container {
+  color: aliceblue;
+  background-color: darkcyan;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.currency-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.currency-container input {
+  background-color: transparent;
+  text-align: right;
+  border: none;
+  font-size: 16px;
+  color: aliceblue;
+}
+.currency-container select {
+  padding: 10px;
+  background-color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+select:focus,
+input:focus {
+  outline: 0;
+}

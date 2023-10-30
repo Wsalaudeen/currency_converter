@@ -6,8 +6,9 @@ const worthSecondEl = document.getElementById("worth-second");
 const exchangeRateEl = document.getElementById("exchange-rate");
 
 
-  // funtion to be listened to  in an addEventListener
+  // funtion to be listened  to
 function updateRate() {
+  // getting data from the API
   fetch(
     `https://v6.exchangerate-api.com/v6/1904ea22b9a1f5720f0e1bd8/latest/${currencyFirstEl.value}`
   )
